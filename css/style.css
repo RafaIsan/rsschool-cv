@@ -317,10 +317,31 @@ a {
 }
 
 .right-column {
+  position: relative;
+  top: -80px;
   flex: 0 1 50%;
 }
 
+.title-box-right {
+  width: 60%;
+  align-self: flex-start;
+  margin: 0;
+}
 
+.title-box-right:target {
+  transform: translateX(-25%);
+  border-radius: 10px;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+  text-align: start;
+}
+
+.right-column__content {
+  background: #292021;
+  box-shadow: -5.5px -7.5px 12px rgba(255, 255, 255, 0.05), inset 11px 11px 22px rgba(0, 0, 0, 0.2), inset -4px -4px 22px rgba(255, 255, 255, 0.25);
+  border-radius: 0px 25px 25px 25px;
+  padding: 48px;
+}
 
 .contact__link {
   color: #c0c0c0;
