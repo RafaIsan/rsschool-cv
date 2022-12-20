@@ -363,10 +363,7 @@ a {
 }
 
 .logo-githab {
-  text-align: center;
-  background: url(../assets/svg/github.svg) no-repeat left center;
-  padding: 5px 0 5px 35px;
-  color: #c0c0c0;
+  width: 32px;
 }
 
 .logo-rss {
