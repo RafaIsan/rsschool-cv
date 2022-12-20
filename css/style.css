@@ -250,16 +250,13 @@ a {
 
 .column__left {
   flex: 0 1 40%;
-  padding: 25px 0;
-  color: #c0c0c0;
+  background: linear-gradient(-14deg, rgba(60, 67, 72, 0.46) 6%, rgba(28, 30, 33, 0.46) 76%);
+  box-shadow: 5.5px 7.5px 13px rgba(0, 0, 0, 0.25), -5.5px 0px 12px rgba(255, 255, 255, 0.1), 1.3px 0.7px 2px rgba(255, 255, 255, 0.1), inset 0px -2px 2px rgba(0, 0, 0, 0.13), inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+  padding: 0px 20px;
 }
 
 .right-column {
-  flex: 0 1 60%;
-  background-color: #c0c0c0;
-  padding: 25px 10px;
-  color: #000000;
-  opacity: 99%;
+  flex: 0 1 50%;
 }
 
 .column__content {
