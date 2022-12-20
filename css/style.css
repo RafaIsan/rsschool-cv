@@ -10,7 +10,7 @@ html {
 
 body{
   font-family: 'Poppins', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   background: linear-gradient(271deg, #3c2429 0%, #281e1f 100%);
   color: #ffffff;
 }
@@ -286,15 +286,15 @@ a {
 }
 
 .content__title {
-  font-weight: 700;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 18px;
   line-height: 30px;
   text-transform: uppercase;
-  color: #f2f2f2;
 }
 
 .content__subtitle {
-
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .content__list {
