@@ -28,12 +28,14 @@ body{
 }
 
 .page {
-  display: flex;
-  flex-direction: column;  
+  position: relative;
+  max-width: 1440px;
   width: 100%;
   min-height: 100vh;
-  background: url(../assets/img/frontend_imag.jpg)  no-repeat center fixed;
-  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background: linear-gradient(90deg, #3A3032 5.15%, #181112 89.49%);
 }
 
 .container {
