@@ -233,7 +233,6 @@ a {
   text-transform: uppercase;
   background: linear-gradient(90deg, #F2F2F2 0%, #B3B090 100%);
   background-clip: text;
-  text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 80px;
@@ -246,7 +245,6 @@ a {
   text-transform: uppercase;
   background: linear-gradient(90.12deg, #11A8FD 0.18%, #0674bc 99.98%);
   background-clip: text;
-  text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
