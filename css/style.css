@@ -279,6 +279,13 @@ a {
   transition: all ease 0.5s;
 }
 
+.title-box:target {
+  transform: translateX(25%);
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  text-align: end;
+}
+
 .subtitle-box {
   width: 80%;
   align-self: flex-end;
