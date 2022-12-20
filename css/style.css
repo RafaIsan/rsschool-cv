@@ -53,19 +53,6 @@ a {
   text-decoration: none;
 }
 
-.header {
-  margin-top: 68px;
-  background: #220e3f;
-  background: -moz-linear-gradient(top,  #220e3f 0%, #231e54 100%);
-  background: -webkit-linear-gradient(top,  #220e3f 0%,#231e54 100%);
-  background: linear-gradient(to bottom,  #220e3f 0%,#231e54 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#220e3f', endColorstr='#231e54',GradientType=0 ); 
-  padding-top: 10px;
-  color: #c0c0c0;
-  opacity: 90%;
-  z-index: 2;
-}
-
 .header__menu {
   position: fixed;
   top: 0;
