@@ -243,12 +243,6 @@ a {
   background: linear-gradient(90.12deg, #11A8FD 0.18%, #0674BC 99.98%);
 }
 
-.main {
-  flex: 1 1 auto;
-  background: #231e54;
-  opacity: 85%;
-}
-
 .column {
   display: flex;
   justify-content: space-between;
