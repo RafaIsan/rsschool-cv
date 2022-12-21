@@ -1,137 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Isyanov CV RSSchool</title>
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
-    <div id="top" class="page">
-      <header class="header">
-        <div class="container">
-          <div class="header__nav">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isyanov CV RSSchool</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div id="top" class="page">
+    <header class="header">
+      <div class="container">
+        <div class="header__menu menu">
+          <div class="menu__box menu__box-logo">
+            <a href="#top" class="link logo">
+              <img src="./assets/icon/icon_logo.ico" alt="logo" class="logo__img">RI</a>
+          </div>
+          <div class="menu__box menu__box-nav">
             <nav class="nav">
-              <a href="#top" class="logo__text"><img src="./assets/icon/icon_logo.ico" alt="logo" class="header__logo">RI</a>
               <ul class="nav__list">
                 <li class="nav__item">
-                  <a href="#projects" class="nav__link">projects</a>
+                  <a href="#about" class="nav__link link">about</a>
                 </li>
                 <li class="nav__item">
-                  <a href="#summary" class="nav__link">summary</a>
+                  <a href="#education" class="nav__link link">education</a>
                 </li>
                 <li class="nav__item">
-                  <a href="#skills" class="nav__link">skills</a>
+                  <a href="#language" class="nav__link link">language</a>
                 </li>
                 <li class="nav__item">
-                  <a href="#code" class="nav__link">code</a>
+                  <a href="#skills" class="nav__link link">skills</a>
                 </li>
                 <li class="nav__item">
-                  <a href="#experience" class="nav__link">experience</a>
+                  <a href="#code" class="nav__link link">code</a>
                 </li>
                 <li class="nav__item">
-                  <a href="#education" class="nav__link">education</a>
+                  <a href="#projects" class="nav__link link">projects</a>
                 </li>
                 <li class="nav__item">
-                  <a href="#contact" class="nav__link">contacts</a>
-                </li>
-                <li class="nav__item">
-                  <a href="#language" class="nav__link">language</a>
+                  <a href="#contact" class="nav__link link">contacts</a>
                 </li>
               </ul>
             </nav>
           </div>
-          <div class="header__wrapper">
-            <img src="./assets/img/profile_photo.jpg" alt="Profile Photo" class="header__imag">
-            <div class="header__head">
-              <h1 class="header__title title">Rafis<br>Isyanov</h1>
-              <p class="header__subtitle">Beginner Frontend Developer</p>
+        </div>
+        <div class="header__wrapper profile">
+          <div class="profile__box">
+            <div class="profile__photo-box">
+              <img src="./assets/img/profile_photo.jpg" alt="Profile Photo" class="profile__photo">
             </div>
           </div>
+          <div class="profile__name-box">
+            <h1 class="name__title title">Rafis Isyanov</h1>
+            <p class="name__subtitle">Beginner Frontend Developer</p>
+            <div class="name__subtitle-line"></div>
+          </div>
         </div>
-      </header>
-      <main class="main">
-        <div class="container">
-          <div class="column">
-            <div class="column__left">
-              <section class="column__content contact">
-                <h2 id="contact" class="content__subtitle subtitle">Contacts</h2>
-                <ul class="content__list">
-                  <li class="content__item">Discord:
-                    <a href="https://discordapp.com/users/976672373224919080/" target="_blank" class="contact__link">Rafis#5252</a>
-                  </li>
-                  <li class="content__item">GitHab:
-                    <a href="https://github.com/RafaIsan" target="_blank" class="contact__link">RafaIsan</a>
-                  </li>
-                  <li class="content__item">E-mail:
-                    <a href="mailto:rr-isyanov@gmail.com" class="contact__link">rr-isyanov@gmail.com</a>
-                  </li>
-                  <li class="contact__item">Phone:
-                    +7 (967) 734 2421
-                  </li>
-                </ul>
-              </section>
-              <section class="column__content">
-                <h2 id="education" class="content__subtitle subtitle">Education</h2>
-                <h3>graduated</h3>
-                <ul class="content__list">
-                    <li class="contrnt__item">Secondary school:
-                      <span>1983-1993</span>
-                    </li>
-                    <li class="contrnt__item">Construction collede:
-                      <span>1993-1996</span>
-                    </li>
-                </ul>
-                <h3>courses</h3>
-                <ul class="content__list">
-                  <li class="contrnt__item">RS School JS:
-                    <span>stage0</span>
-                  </li>
-                </ul>
-              </section>
-              <section class="column__content">
-                <h2 id="skills" class="content__subtitle subtitle">Skills</h2>
-                <ul class="content__list">
-                  <li class="content__item">HTML -
-                    <span>basic</span>
-                  </li>
-                  <li class="content__item">CSS -
-                    <span>basic</span>
-                  </li>
-                  <li class="contrnt__item">Figma -
-                    <span>basic for front-end development</span>
-                  </li>
-                </ul>
-              </section>
-              <section class="column__content">
-                <h2 id="language" class="content__subtitle subtitle">Languages</h2>
-                <ul class="content__list">
-                  <li class="content__item">Bashkir -
-                    <span>native</span>
-                  </li>
-                  <li class="content__item">Russian -
-                    <span>Fluent</span>
-                  </li>
-                  <li class="contrnt__item">English -
-                    <span>A1</span>
-                  </li>
-                </ul>
-              </section>
-            </div>
-            <div class="right-column">
-              <section class="column__content">
-                <h2 id="summary" class="content__subtitle subtitle">Summary</h2>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="column">
+          <div class="column__left">
+            <section class="column__content">
+              <div id="education" class="column__box title-box">
+                <h2 class="content__title">Education</h2>
+              </div>
+              <div class="column__box subtitle-box">
+                <h3 class="content__subtitle">graduated</h3>
+              </div>
+              <ul class="content__list">
+                <li class="column__box">Secondary school:
+                  <span>1983-1993</span>
+                </li>
+                <li class="column__box">Construction collede:
+                  <span>1993-1996</span>
+                </li>
+              </ul>
+              <div class="column__box subtitle-box subtitle-box-second">
+                <h3 class="content__subtitle">courses</h3>
+              </div>
+              <ul class="content__list">
+                <li class="column__box">RS School JS:
+                  <span>stage0</span>
+                </li>
+              </ul>
+            </section>
+            <section class="column__content">
+              <div id="language" class="column__box title-box">
+                <h2 class="content__title">Languages</h2>
+              </div>
+              <ul class="content__list">
+                <li class="column__box">Bashkir -
+                  <span>native</span>
+                </li>
+                <li class="column__box">Russian -
+                  <span>Fluent</span>
+                </li>
+                <li class="column__box">English -
+                  <span>A1</span>
+                </li>
+              </ul>
+            </section>
+            <section class="column__content">
+              <div id="skills" class="column__box title-box">
+                <h2 class="content__title">Skills</h2>
+              </div>
+              <ul class="content__list">
+                <li class="column__box">HTML -
+                  <span>basic</span>
+                </li>
+                <li class="column__box">CSS -
+                  <span>basic</span>
+                </li>
+                <li class="column__box">Figma -
+                  <span>basic for front-end development</span>
+                </li>
+              </ul>
+            </section>
+            <section class="column__content contact">
+              <div id="contact" class="column__box title-box">
+                <h2 class="content__title">Contacts</h2>
+              </div>
+              <ul class="content__list">
+                <li class="column__box">
+                  <a href="mailto:rr-isyanov@gmail.com" class="contact__link">
+                    <span class="link__icon"><img src="./assets/svg/gmail.svg" alt="icon"></span>
+                    <span class="link__logo"><img src="./assets/svg/gmail_logo.svg" alt="Gmail"></span>
+                    <span class="link__text">rr-isyanov@gmail.com</span>
+                  </a>
+                </li>
+                <li class="column__box">
+                  <a href="https://discordapp.com/users/976672373224919080/" target="_blank" class="contact__link">
+                    <span class="link__icon"><img src="./assets/svg/discord.svg" alt="icon"></span>
+                    <span class="link__logo"><img src="./assets/svg/discord_logo.svg" alt="Discord"></span>
+                    <span class="link__text">Rafis#5252</span>
+                  </a>
+                </li>
+                <li class="column__box">
+                  <a href="https://t.me/Rafis_Isyanov" target="_blank" class="contact__link">
+                    <span class="link__icon"><img src="./assets/svg/telegram.svg" alt="icon"></span>
+                    <span class="link__logo"><img src="./assets/svg/telegram_logo.svg" alt="telegram"></span>
+                    <span class="link__text">@Rafis_Isyanov</span>
+                  </a>
+                </li>
+                <li class="column__box">
+                  <a href="https://github.com/RafaIsan" target="_blank" class="contact__link">
+                    <span class="link__icon github-icon"><img src="./assets/svg/github.svg" alt="icon"></span>
+                    <span class="link__logo"><img src="./assets/svg/github_logo.svg" alt="GitHab"></span>
+                    <span class="link__text">RafaIsan</span></a>
+                </li>
+              </ul>
+            </section>
+          </div>
+          <div class="right-column">
+            <section class="column__content">
+              <div id="about" class="column__box title-box title-box-right">
+                <h2 class="content__title">About</h2>
+              </div>
+              <div class="right-column__content">
                 <p class="content__text">I like when I see the result of my work, so I chose frontend development.</p>
-                <p class="content__text">I have great interest in new technologies and I like to learn new things and use the acquired skills in practice.</p>
-              </section>
-              <section class="column__content">
-                <h2 id="experience" class="content__subtitle subtitle">Work Experience</h2>
+                <p class="content__text">I have great interest in new technologies and I like to learn new things and
+                  use
+                  the acquired skills in practice.</p>
                 <p class="content__text">I don’t have any experience in frontend development yet.
                 </p>
-              </section>
-              <section class="column__content">
-                <h2 id="code" class="content__subtitle subtitle">Code Example</h2>
+              </div>
+            </section>
+            <section class="column__content">
+              <div id="code" class="column__box title-box title-box-right">
+                <h2 class="content__title">Code Example</h2>
+              </div>
+              <div class="right-column__content">
                 <pre>
                   <code>
                     function multiply(a, b) {
@@ -139,26 +183,34 @@
                     }
                   </code>
                 </pre>
-              </section>
-              <section class="column__content">
-                <h2 id="progects" class="content__subtitle subtitle">My Projects</h2>
-                <a href="https://rafaisan.github.io/rsschool-cv/cv" target="_blank">CV</a>
-              </section>
-            </div>
+              </div>
+            </section>
+            <section class="column__content">
+              <div id="projects" class="column__box title-box title-box-right">
+                <h2 class="content__title">My Projects</h2>
+              </div>
+              <div class="right-column__content">
+                <a class="link" href="https://rafaisan.github.io/rsschool-cv/cv" target="_blank">CV</a>
+              </div>
+            </section>
           </div>
         </div>
-      </main>
-      <footer class="footer">
-        <div class="container">
-          <div class="footer__content">
-            <div class="githab">
-              <a href="https://github.com/RafaIsan" target="_blank" class="logo-githab">Rafaisan</a>
-            </div>
-            <span class="footer__text">Copyright ©2022 All rights reserved by Rafis Isyanov</span>
-            <a href="https://rs.school/js/" target="_blank"><img src="./assets/cvg/rsschool_js.svg" alt="RSSchool logo" class="logo-rss"></a>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="githab">
+            <a href="https://github.com/RafaIsan" target="_blank"><img class="logo-githab" src="./assets/svg/github.svg"
+                alt="GitHab"></a>
           </div>
+          <span class="footer__text">Copyright ©2022 All rights reserved by Rafis Isyanov</span>
+          <a href="https://rs.school/js/" target="_blank"><img src="./assets/svg/rsschool_js.svg" alt="RSSchool logo"
+              class="logo-rss"></a>
         </div>
-      </footer>
-    </div>
-  </body>
+      </div>
+    </footer>
+  </div>
+</body>
+
 </html>
